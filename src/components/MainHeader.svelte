@@ -1,0 +1,91 @@
+<header class="header">
+  <div class="hashtag"><img class="headerLogo" src="../img/ckcLogoBadge.png" alt="Logo" />
+</div>
+  <nav>
+    <ul class="centered-links">
+      <li><a href="#">Home</a></li>
+      <li><a href="#aboutme">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="#reviews">Reviews</a></li>
+    </ul>
+  </nav>
+</header>
+
+
+<style>
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 10% 90%;
+    /* background-color: #f1c2ac; */
+    border-radius: 5px;
+    max-height: 3em;
+  }
+
+  .headerLogo {
+    /* position: fixed; */
+    width: 75%;
+    /* height:100%;
+        justify-self: center; */
+    /* background-color: #f1c2ac; */
+    /* border-radius: 15px; */
+    /* margin-left: -1%; */
+  }
+
+  .hashtag {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    text-align: center;
+    align-content: center;
+    font-weight: 800;
+    font-size: 1.75em;
+  }
+
+  nav {
+    background-color: #112b5e;
+    width: 100%;
+    text-align: center;
+    align-content: center;
+
+  }
+
+  ul {
+    list-style-type: none;
+    display: grid;
+    /* align-items: center; */
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    /* justify-self: center;
+        margin-left: -2%; */
+  }
+
+  li {
+    /* background-color: #25aae1; */
+    padding: 10px 20px;
+    margin: 1em;
+    border-radius: 5px;
+    
+    
+  }
+  a:hover {
+    background-color: #0f75bc;
+    padding: 1em;
+    border-radius: 15px;
+    font-weight: 800;
+    font: 1.5em sans-serif;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+    font-weight: 800;
+    font: 1.5em sans-serif;
+  }
+</style>
