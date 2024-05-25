@@ -1,5 +1,5 @@
 <header class="header">
-  <div class="hashtag"><img class="headerLogo" src="../img/ckcLogoBadge.png" alt="Logo" />
+  <div class="hashtag">
 </div>
   <nav>
     <ul class="centered-links">
@@ -44,6 +44,10 @@
     align-content: center;
     font-weight: 800;
     font-size: 1.75em;
+    background-image: url("../img/ckcLogoBadge.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:contain;
   }
 
   nav {

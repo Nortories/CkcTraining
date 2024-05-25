@@ -11,8 +11,7 @@
     </div>
   </div>
 
-  <div class="imgBox">
-    <img src="../img/profilePic2.jpeg" alt="" />
+  <div class="imgbox imgBox2">
   </div>
   <p>
     I'm Chantel Clark, I am in my 20'tys, and I've harbored an
@@ -43,8 +42,8 @@
     exceptional results, bringing joy and harmony to the lives of both clients and
     their furry companions.
   </p>
-  <div class="imgBox">
-    <img src="../img/profilePic.jpeg" alt="" />
+  <div class="imgbox imgBox1">
+    
   </div>
 </section>
 
@@ -97,6 +96,31 @@
     margin: 1em;
     border-radius: 15px;
     font-size: 1.25em;
+    color: rgb(0, 0, 0);
+    
+  }
+.imgBox1{
+    background-image: url("../img/profilePic.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 600px;
+    width: 100%;
+    height: 100%;
+    border-style: dotted;
+    border-radius: 15px;
+    color: rgb(0, 0, 0);
+}
+  .imgBox2{
+    background-image: url("../img/profilePic2.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:contain;
+    width: 100%;
+    height: 100%;
+    min-height: 600px;
+    border-style: dotted;
+    border-radius: 15px;
     color: rgb(0, 0, 0);
   }
   p{
