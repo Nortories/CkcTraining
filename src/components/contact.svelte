@@ -74,9 +74,9 @@ function handleSubmit(event) {
         <p>Email: Ck9ctraining@gmail.com</p>
         <br>
         <p>Social media:</p>
-        <p><a href="https://www.instagram.com/ckctraining/"><img src="../img/instagram.png" alt="Instagram" width="24" height="24"> @ckctraining</a></p>
-        <p><a href="https://www.facebook.com/CKCtraining/"><img src="../img/facebook.png" alt="Facebook" width="24" height="24"> @ckctraining</a></p>
-        <p><a href="https://www.tiktok.com/@ckctraining"><img src="../img/tiktok.png" alt="TikTok" width="24" height="24"> @ckctraining</a></p>
+        <p><a href="https://www.instagram.com/ckctraining/"><img src="/img/instagram.png" alt="Instagram" width="24" height="24"> @ckctraining</a></p>
+        <p><a href="https://www.facebook.com/CKCtraining/"><img src="/img/facebook.png" alt="Facebook" width="24" height="24"> @ckctraining</a></p>
+        <p><a href="https://www.tiktok.com/@ckctraining"><img src="/img/tiktok.png" alt="TikTok" width="24" height="24"> @ckctraining</a></p>
     </div>
 </section>
 </section>
