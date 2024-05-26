@@ -9,15 +9,12 @@
     <div id="serviceText">
       <h1>Services</h1>
     </div>
+
   </div>
-  <div class="headings" id="services">
-    <h2>Hourly:</h2>
-    <h2>Packages:</h2>
-    <h2>Group Classes:</h2>
-    <h2>Board and Train:</h2>
-  </div>
+  
 
   <section class="cardWithBG" id="hours">
+    <div class="headings" id="services"><h2>Hourly:</h2></div>
     <p>$180/hour for 1 dog (40$/hr for additonal dog)</p>
     <p>
       Comprehensive dog training services - covers everything your dog needs to
@@ -34,6 +31,7 @@
   </section>
 
   <section class="cardWithBG" id="packages">
+    <div class="headings" id="services"><h2>Packages:</h2></div>
     <p>- For 1 dog</p>
     <p>$1200 for 6 sessions and 2 group classes</p>
     <p>- For 2 dogs</p>
@@ -43,6 +41,7 @@
   </section>
 
   <section class="cardWithBG">
+    <div class="headings" id="services"><h2>Group Classes:</h2></div>
     <p>$50/family (additional $20/per dog)</p>
     <p>
       Designed to challenge both you and your canine companion with intense
@@ -67,6 +66,7 @@
     <p>- class locations and times vary</p>
   </section>
   <section class="cardWithBG">
+    <div class="headings" id="services"><h2>Board and Train:</h2></div>
     <p>Intensive In-Home Training for dog clients to reside with me</p>
     <p>
       - receive personalized one-on-one sessions morning and evening, each
@@ -100,9 +100,7 @@
   }
   .headings {
     margin-top: 1em;
-    background-color: #0f75bc;
     height: 2.5em;
-    width: 100%;
     grid-column-start: 1;
     grid-column-end: 5;
   }
@@ -118,8 +116,8 @@
   }
   #services {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
     justify-items: center;
+    margin-bottom: 2em;
   }
 
   #servicesTitle {
@@ -169,6 +167,10 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-
+  }
+  @media (max-width: 800px) {
+    #services {
+      display: inline;
+    }
   }
 </style>

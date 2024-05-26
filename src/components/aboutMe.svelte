@@ -13,7 +13,7 @@
 
   <div class="imgbox imgBox2">
   </div>
-  <p>
+  <p class="mobileAdj">
     I'm Chantel Clark, I am in my 20'tys, and I've harbored an
     entrepreneurial spirit since a young age. My passion for working with people
     and their dogs stems from my upbringing. Growing up, I had a little white
@@ -30,7 +30,7 @@
     outdoors with my animals, family, and friends. Staying active in sports complements
     my active lifestyle.
   </p>
-  <p>
+  <p class="mobileAdj2">
     Currently, I'm pursuing my bachelor's degree in Business Marketing at SUU,
     now in my third year. Despite my academic pursuits, dog training remains my
     full-time passion. Based in Southern Utah, I'm deeply embedded in the local
@@ -83,12 +83,7 @@
     grid-column-end: 3;
     border-radius: 15px;
   }
-  img {
-    max-width: 100%;
-    max-height: 100%;
-    border-radius: 15px;
-    grid-column-end: 1;
-  }
+
   p,
   .imgBox {
     border-style: dotted;
@@ -97,6 +92,7 @@
     border-radius: 15px;
     font-size: 1.25em;
     color: rgb(0, 0, 0);
+    height: 700px;
     
   }
 .imgBox1{
@@ -125,6 +121,31 @@
   }
   p{
     background-color:antiquewhite;
-    
   }
+
+  @media (max-width: 800px) {
+
+    .imgBox2{
+        display: none;
+    }
+    .mobileAdj {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        height: auto;
+    }
+  }
+  .imgBox1{
+    margin: 1.25em;
+  }
+  @media (max-width: 640px) {
+    .mobileAdj2{
+        grid-column-start: 1;
+        grid-column-end: 3;
+        height: auto;
+    }
+    .imgBox1{
+        display: none;
+    }
+  }
+
 </style>

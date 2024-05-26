@@ -20,4 +20,11 @@
         width: 100%;
         border-radius: 15px;
     }
+    @media (max-width: 800px) {
+        .hero{
+            margin-top: 320px;
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+        }
+    }
 </style>
